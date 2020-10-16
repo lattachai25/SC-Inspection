@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+@import url('fonts.css');
+body{
+    font-family: 'Mitr', sans-serif;
+}
+
+.page-container{
+    margin: auto;
+}
+
+.page{
+    /*794 x 1123*/
+    width: 790px;
+    height: 1125px;
+    background-size: cover;
+    margin: 5px;
+    background-image: url('../img_system/carshowbg.jpg');
+}
+
+.page-contain{
+    padding: 60px;
+}
+
+.page-2{
+    font-family: 'Angsana New';
+}
+.page-2 .certificate{
+    border: 1px solid #000000;
+    border-bottom: none;
+}
+.page-2 .certificate td{
+    padding-left: 5px;
+}
+.page-2 td span{
+    font-size: 10px;
+    line-height: 9px;
+}
+.page-2 .dealer td{
+    font-size: 12px;
+    line-height: 12px;
+    vertical-align: top;
+    padding-bottom: 2px;
+}
+.page-2 .car td{
+    padding: 4px 0;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-bottom: none;
+}
+.page-2 .detail{
+    border-bottom: 1px solid #000000;
+}
+.page-2 .detail td{
+    padding: 1px 5px 0;
+    font-size: 14px;
+}
+.page-2 .detail tr:nth-child(2) td{
+    padding-top: 4px;
+}
+.page-2 .detail tr:last-child td{
+    padding-bottom: 5px;
+}
+.page-2 .box-check{
+    padding: 0 5px;
+    color: #de0f00;
+    text-align: center;
+    font-weight: bold;
+    line-height: 15px;
+    border: 1.5px solid #000000;
+}
+.page-2 .sign{
+    margin: 0 auto 5px;
+    width: 100px;
+    height: 40px;
+    border-bottom: 1px dashed #000000;
+}
+
+.head-title{
+    padding-top: 35px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.head-logo{
+    margin-top: 140px;
+}
+
+.head-logo img{
+    width: 240px;
+    height: 150px;
+}
+
+.head-description{
+    font-size: 25px;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+.overall-table{
+    font-size: 14px;
+}
+
+.overall-table td{
+    border: 1px solid lightgray;
+    width: 20%;
+    padding: 10px;
+}
+
+#tire-table, #chassis-table, #fire-table, #flood-table{
+    text-align: center;
+}
+#tire-table{
+    width: 80%;
+}
+
+.conclude-table td{
+    height: 65px;
+}
+
+.grid-container {
+    margin-top: 23px;
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-item{
+    width: 100%;
+}
+.car-show{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.table-check{
+    background-color: white;
+    color: rgb(233, 178, 65);
+    font-size: 20px;
+    text-align: center;
+}
+
+.table-detail{
+    background-color: white;
+}
+
+.table-title{
+    background-color: rgb(237, 239, 236);
+}
+
+.table-report{
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 14px;
+}
+.table-report th{
+    padding: 10px 0px 10px 0px;
+    background-color: black;
+}
+.table-battery{
+    font-size: 12px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.table-battery td{
+    padding: 1px 10px 1px 10px;
+    min-width: 80px;
+    max-width: 200px;
+}
+
+.char-col{
+    border-right: 1px solid white;
+}
+
+.table-report td{
+    padding: 8px 20px 8px 20px;
+}
+
+.table-report tr:nth-child(odd){
+    background-color: rgb(43, 43, 43);
+}
+
+.detail-description{
+    margin-top: 20px;
+}
+
+.topic-title{
+    display: inline-block;
+    padding: 8px 15px 8px 15px;
+    margin: auto;
+    background-color: rgb(233, 178, 65);
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 13px;
+    border: 5px solid white;
+    box-shadow: 10px 10px 5px grey;
+}
+.img-thumbnail{
+    margin-top: 20px;
+}
+
+.image-grid-container{
+    margin-top: 20px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto;
+}
+
+.img-grid-item{
+    border: 20px inset #a38175;
+    width: 250px;
+    height: 150px;
+}
+.img-grid-item-xl{
+    border: 20px inset #a38175;
+    width: 300px;
+    height: 250px;
+}
+.condition-bg{
+    font-family: "Angsana New";
+    text-align: left;
+    margin-top: 20px;
+    height:780px;
+    background-color: white;
+    border: 10px solid black;
+    padding: 15px;
+
+}
+.condition-bg table td{
+    vertical-align: top;
+    font-size: 13.4px !important;
+    width: 50%;
+}
+
+.sign-grid-container{
+    font-size: 13px;
+    margin-top: 75px;
+    margin-right: 50px;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+}
+.sign-block{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.car-layout{
+    background-image: url("../car_structure/plan.png");
+    background-size: cover;
+    background-position: 0px -50px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    width: 75%;
+    height: 58%;
+}
+#battery-condition{
+    margin-top: 20px;
+}
+
+#chassis-report{
+    background-size: contain;
+    background-position: 50px 0px;
+    background-repeat: no-repeat;
+    background-image: url("../chassis_structure/chassis.png");
+    width: 80%;
+    height: 60%;
+    margin-top: 20px;
+}
+#interior-report{
+    background-size: contain;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-image: url("/images/interior/interior.png");
+    width: 70%;
+    height: 60%;
+    margin-top: 110px;
+}
+.table-progress{
+    background-color: white;
+    padding: 13px 20px 13px 20px !important;
+}
+
+.progress-bar{
+    background-color: lightgray;
+    width: 100%;
+    height: 15px;
+}
+.progress-bar .progress-bar-bar{
+    background-color: rgb(233, 178, 65);
+    width: 0%;
+    height: 100%;
+}
+
+.vehicle-overview-table{
+    border: 1px solid lightgray;
+    font-size: 13px;
+}
+.vehicle-overview-table td{
+    border: 1px solid lightgray;
+    width: 20%;
+    height: 50px;
+    padding: 5px;
+    max-height: 40px;
+}
+#inspector-note{
+    background-color: black;
+    margin-top: 20px;
+    height: 120px;
+    color: white;
+    text-align: left;
+    font-size: 13px;
+    padding: 15px;
+}
+
+/*ชิ้นส่วนรถยนต์*/
+.car-component{
+    position: absolute;
+    /* visibility: hidden !important; */
+}
+.mark-component{
+    position: absolute;
+    /* background-color: aqua; */
+    width: 80px;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+#A1{
+    width: 75px;
+    height: 129px;
+    transform: translate(-206px, 48px);
+}
+#A2{
+    width: 75px;
+    height: 129px;
+    transform: translate(135px, 48px);
+}
+#B1{
+    width: 75px;
+    height: 162px;
+    transform: translate(-206px, 390px);
+}
+#B2{
+    width: 75px;
+    height: 162px;
+    transform: translate(135px, 390px);
+}
+#FS{
+    width: 200px;
+    height: 18px;
+    transform: translate(-99px, 11px);
+}
+#RSH{
+    width: 208px;
+    height: 19px;
+    transform: translate(-102px, 600px);
+}
+#CH{
+    width: 200px;
+    height: 123px;
+    transform: translate(-98px, 54px);
+}
+#WS{
+    width: 205px;
+    height: 102px;
+    transform: translate(-101px, 168px);
+}
+#Roof{
+    width: 158px;
+    height: 160px;
+    transform: translate(-77px, 255px);
+}
+#WSR{
+    width: 197px;
+    height: 103px;
+    transform: translate(-97px, 410px);
+}
+
+#C1{
+    width: 107px;
+    height: 104px;
+    transform: translate(-196px, 177px);
+}
+#C2{
+    width: 107px;
+    height: 104px;
+    transform: translate(93px, 177px);
+}
+#D1{
+    width: 107px;
+    height: 104px;
+    transform: translate(-196px, 287px);
+}
+#D2{
+    width: 107px;
+    height: 104px;
+    transform: translate(93px, 287px);
+}
+#W1{
+    width: 60px;
+    height: 60px;
+    transform: translate(-210px, 98px);
+}
+
+#W2{
+    width: 60px;
+    height: 60px;
+    transform: translate(152px, 98px);
+}
+#W3{
+    width: 60px;
+    height: 60px;
+    transform: translate(-224px, 406px);
+}
+#W4{
+    width: 60px;
+    height: 60px;
+    transform: translate(166px, 406px);
+}
+#LS{
+    width: 13px;
+    height: 245px;
+    transform: translate(-216px, 160px);
+}
+#RS{
+    width: 13px;
+    height: 245px;
+    transform: translate(207px, 160px);
+}
+#RH{
+    width: 197px;
+    height: 82px;
+    transform: translate(-97px, 493px);
+}
+
+#W1-mark{
+    transform: translate(-280px, 100px);
+}
+#W2-mark{
+    transform: translate(-300px, 430px);
+}
+#W3-mark{
+    transform: translate(230px, 100px);
+}
+#W4-mark{
+    transform: translate(230px, 420px);
+}
+#CH-mark{
+    transform: translate(-40px, 80px);
+}
+#Roof-mark{
+    transform: translate(-40px, 300px);
+}
+#A1-mark{
+    transform: translate(-210px, 0px);
+}
+#A2-mark{
+    transform: translate(150px, 0px);
+}
+#B1-mark{
+    transform: translate(-210px, 550px);
+}
+#B2-mark{
+    transform: translate(150px, 550px);
+}
+#C1-mark{
+    transform: translate(-210px, 210px);
+}
+#D1-mark{
+    transform: translate(-210px, 310px);
+}
+#C2-mark{
+    transform: translate(140px, 210px);
+}
+#D2-mark{
+    transform: translate(140px, 310px);
+}
+#LS-mark{
+    transform: translate(-320px, 250px);
+}
+#RS-mark{
+    transform: translate(220px, 250px);
+}
+#WSR-mark{
+    transform: translate(-40px, 440px);
+}
+#RH-mark{
+    transform: translate(-40px, 520px);
+}
+#RSH-mark{
+    transform: translate(-40px, -20px);
+}
+#FS-mark{
+    transform: translate(-40px, 610px);
+}
+
+/*ชิ้นส่วนภายใน*/
+.chassis-component{
+    position: absolute;
+    /*visibility: hidden;*/
+}
+#engine{
+    width: 440px;
+    transform: translate(-218px, 0px);
+}
+#carbin{
+    width: 345px;
+    transform: translate(-170px, 190px);
+}
+#cargo{
+    width: 440px;
+    transform: translate(-218px, 548px);
+}
+
+@page{
+    size: 21cm 29.7cm; /* auto is the initial value */
+    margin: 1mm 4mm 1mm 1mm; /* this affects the margin in the printer settings */
+}
+
+@media print {
+    .page {page-break-after: always;}
+
+}
+
+/*Force show background on print*/
+* {
+    -webkit-print-color-adjust: exact !important;   /* Chrome, Safari */
+    color-adjust: exact !important;                 /*Firefox*/
+}

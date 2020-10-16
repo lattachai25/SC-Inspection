@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+body{
+    font-family: 'Mitr', sans-serif;
+}
+hr{
+    width: 50%;
+    background-color: #00385B;
+    margin-left: 0;
+    margin-top: 0;
+}
+.title-search{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+a{
+    color: #000000;
+}
+a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+a:hover .card{
+    box-shadow: 5px 5px 10px -4px #888888;
+}
+.card{
+    border-radius: 15px;
+}
+.card-img{
+    display: flex;
+    height: 170px;
+}
+.card-img img{
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+.card-body{
+    padding: 0;
+}
+.card-header, .card-footer{
+    background-color: #00385B; /* #052744 #FFCA07 #00385B */
+    color: #ffffff;
+}
+.card-footer{
+    border-radius: 0 0 15px 15px !important;
+}
+.page-link, .page-link:hover{
+    color: #00385B;
+}
+.page-item.active .page-link{
+    background-color: #00385B;
+    border-color: #00385B;
+}
+thead{
+    background-color: #00385B;
+    color: #ffffff;
+}
+.form-title{
+    font-size: 1.1rem;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #00385B;
+    border-radius: 20px 20px 0 0;
+}
+.box-form{
+    border-radius: 0 0 20px 20px;
+    border: 1px solid #00385B;
+    padding-bottom: 10px;
+    margin-bottom: 13px;
+}
+.box-form .form-group.row{
+    margin-bottom: 7px;
+    margin-right: 0px;
+}
+.btn-add-appoint{
+    box-shadow: 4px 4px 4px -3px #888888;
+}
+.btn-add-appoint:hover{
+    font-weight: 600;
+}
+.btn-add-appoint:focus{
+    font-weight: 600;
+    box-shadow: 4px 4px 4px -3px #888888;
+}
+.btnCustom{
+    padding-left: 0;
+}
+.btnCustom input{
+    display: none;
+}
+.btnCustom label{
+    cursor: pointer;
+    width: auto;
+    margin: 0;
+    padding: 2px 10px;
+    border: 1px solid #052744;
+    border-radius: 3px;
+    box-shadow: 4px 4px 4px -3px #888888;
+    background-color: #ffffff;
+}
+.btnCustom label:hover, .btnCustom label:hover::before{
+    background-color: #FFCA07;
+    color: #052744;
+}
+.btnCustom input[type="radio"]:checked + label::before, .btnCustom input[type="checkbox"]:checked + label::before{
+    content: "\2714\0020";
+    color: #052744;
+}
+.btnCustom input[type="radio"]:checked + label, .btnCustom input[type="checkbox"]:checked + label{
+    background-color: #FFCA07;
+    color: #052744;
+}
+.form-border{
+    border: 1px solid #444444;
+    box-shadow: 4px 4px 4px -3px #888888;
+}
+.nav-pills{
+    margin: 0 20px;
+}
+.nav-pills .nav-item{
+    font-size: 14px;
+}
+.nav-pills .nav-link{
+    border-radius: 0;
+    padding: 4px 5px;
+    color: #b1b1b1;
+    font-size: 14px;
+}
+.nav-pills .nav-link.active{
+    background-color: transparent;
+    font-size: 1.1rem;
+}
+.nav-pills .nav-link:hover{
+    color: #ffffff;
+}
+.btn-purple{
+    color: #ffffff;
+    background-color: #7161ff;
+}
+.btn-purple:hover{
+    color: #ffffff;
+    background-color: #4c3ec9;
+    border-color: #2f20b8;
+}
+.checkCustom{
+    width: 20px;
+}
+.checkCustom input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+}
+.carplan-img:hover{
+    background-color: rgba(51, 51, 51, 0.25);
+}
+.carplan-img select{
+    cursor: pointer;
+    height: 28px;
+    padding: 2px 10px;
+    color: #ffffff;
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(0, 56, 91, 0.8);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.box-title{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #00385B;
+    border-bottom: 1.5px solid #00385B;
+}
+.upload-box{
+    margin: 0 10%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #c2c2c2;
+}
+.text-data{
+    border-bottom: 1px solid #00385B;
+}
+
+@media only screen and (max-width: 991px){
+    hr{
+        width: 100%;
+        margin: auto 10px 15px 10px;
+
+    }
+    label{
+        margin-top: 8px;
+    }
+    .box-form{
+        padding-bottom: 20px;
+    }
+    .box-form .form-group.row{
+        margin: 0 auto;
+    }
+}
